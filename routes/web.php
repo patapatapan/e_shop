@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('index', 'App\Http\Controllers\SiteController@index');
+Route::get('contact', 'SiteController@contact');
