@@ -10,12 +10,15 @@ class SiteController extends Controller
     }
 
     public function shop()
-  {
-    return view('shop');
-  }
-   public function contact()
+    {
+        return view('shop');
+    }
+    public function contact()
     {
         return view('contact');
     }
+    public function details()
+    {
+        return view('products_details');
+    }
 }
-
