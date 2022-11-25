@@ -66,7 +66,7 @@
                                             <li><a href="blog-details.html">Blog Details</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="{{url('/')}}">Pages</a>
+                                    <li><a href="{{url('/pages')}}">Pages</a>
                                         <ul class="submenu">
                                             <li><a href="login.html">Login</a></li>
                                             <li><a href="cart.html">Cart</a></li>
