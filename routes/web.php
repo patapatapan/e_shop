@@ -14,10 +14,14 @@ use Illuminate\Support\Facades\Route;
  */
 
 Route::get('/', function () {
-  return view('welcome');
+    return view('welcome');
 });
-Route::namespace('App\Http\Controllers')->group(function () {
-  Route::get('index', 'SiteController@index');
-  Route::get('shop', 'SiteController@shop');
-  Route::get('about', 'SiteController@about');
+
+
+Route::namespace ('App\Http\Controllers')->group(function () {
+    Route::get('index', 'SiteController@index');
+    Route::get('shop', 'SiteController@shop');
+    Route::get('contact', 'SiteController@contact');
+    Route::get('details', 'SiteController@details');
+    Route::get('about', 'SiteController@about');
 });
