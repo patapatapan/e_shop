@@ -12,4 +12,8 @@ class SiteController extends Controller
   {
     return view('shop');
   }
+  public function about()
+  {
+    return view('about');
+  }
 }
