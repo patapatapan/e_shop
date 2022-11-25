@@ -8,8 +8,14 @@ class SiteController extends Controller
     {
         return view('index');
     }
-     public function contact()
+
+    public function shop()
+  {
+    return view('shop');
+  }
+   public function contact()
     {
         return view('contact');
     }
 }
+
