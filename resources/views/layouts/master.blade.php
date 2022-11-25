@@ -70,9 +70,9 @@
                                         <ul class="submenu">
                                             <li><a href="login.html">Login</a></li>
                                             <li><a href="cart.html">Cart</a></li>
-                                            <li><a href="elements.html">Element</a></li>
-                                            <li><a href="confirmation.html">Confirmation</a></li>
-                                            <li><a href="checkout.html">Product Checkout</a></li>
+                                            <li><a href="{{url('/elements')}}">Element</a></li>
+                                            <li><a href="{{url('/confirmations')}}">Confirmation</a></li>
+                                            <li><a href="{{url('/checkout')}}">Product Checkout</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="{{url('/contact')}}">Contact</a></li>

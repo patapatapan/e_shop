@@ -37,4 +37,16 @@ class SiteController extends Controller
     {
         return view('products_details');
     }
+     public function elements()
+    {
+        return view('elements');
+    }
+      public function confirmations()
+    {
+        return view('confirmations');
+    }
+          public function checkout()
+    {
+        return view('checkout');
+    }
 }
