@@ -53,11 +53,11 @@
                                 <ul id="navigation">
                                     <li><a href="{{url('/index')}}">Home</a></li>
                                     <li><a href="{{url('/shop')}}">shop</a></li>
-                                    <li><a href="{{url('/')}}">about</a></li>
+                                    <li><a href="{{url('/about')}}">about</a></li>
                                     <li class="hot"><a href="#">Latest</a>
                                         <ul class="submenu">
-                                            <li><a href="shop.html"> Product list</a></li>
-                                            <li><a href="product_details.html"> Product Details</a></li>
+                                            <li><a href="{{url('/shop')}}"> Product list</a></li>
+                                            <li><a href="{{url('/details')}}"> Product Details</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="{{url('/blog')}}">Blog</a>
@@ -75,7 +75,7 @@
                                             <li><a href="checkout.html">Product Checkout</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="{{url('/')}}">Contact</a></li>
+                                    <li><a href="{{url('/contact')}}">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
