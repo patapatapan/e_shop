@@ -14,9 +14,11 @@ use Illuminate\Support\Facades\Route;
  */
 
 Route::get('/', function () {
-  return view('welcome');
+    return view('welcome');
 });
-Route::namespace('App\Http\Controllers')->group(function () {
-  Route::get('index', 'SiteController@index');
-  Route::get('shop', 'SiteController@shop');
+Route::namespace ('App\Http\Controllers')->group(function () {
+    Route::get('index', 'SiteController@index');
+    Route::get('shop', 'SiteController@shop');
+    Route::get('blog', 'SiteController@blog');
+    Route::get('blog1', 'SiteController@blog_details');
 });

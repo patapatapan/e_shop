@@ -60,10 +60,10 @@
                                             <li><a href="product_details.html"> Product Details</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="{{url('/')}}">Blog</a>
+                                    <li><a href="{{url('/blog')}}">Blog</a>
                                         <ul class="submenu">
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                            <li><a href="{{url('/blog')}}">Blog</a></li>
+                                            <li><a href="{{url('/blog1')}}">Blog Details</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="{{url('/')}}">Pages</a>
