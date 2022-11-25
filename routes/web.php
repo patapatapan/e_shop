@@ -14,7 +14,9 @@ use Illuminate\Support\Facades\Route;
  */
 
 Route::get('/', function () {
-    return view('welcome');
+  return view('welcome');
 });
-
-Route::get('index', 'App\Http\Controllers\SiteController@index');
+Route::namespace('App\Http\Controllers')->group(function () {
+  Route::get('index', 'SiteController@index');
+  Route::get('shop', 'SiteController@shop');
+});
