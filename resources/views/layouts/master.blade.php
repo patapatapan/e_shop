@@ -75,7 +75,7 @@
                                             <li><a href="checkout.html">Product Checkout</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="{{url('/')}}">Contact</a></li>
+                                    <li><a href="{{url('/contact')}}">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
