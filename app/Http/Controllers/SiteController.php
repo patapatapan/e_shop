@@ -37,6 +37,14 @@ class SiteController extends Controller
     {
         return view('products_details');
     }
+    public function login()
+    {
+        return view('login');
+    }
+     public function cart()
+    {
+        return view('cart');
+    }
      public function elements()
     {
         return view('elements');
