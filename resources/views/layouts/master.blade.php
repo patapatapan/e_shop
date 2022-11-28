@@ -53,29 +53,33 @@
                                 <ul id="navigation">
                                     <li><a href="{{url('/index')}}">Home</a></li>
                                     <li><a href="{{url('/shop')}}">shop</a></li>
-                                    <li><a href="{{url('/')}}">about</a></li>
-                                    <li class="hot"><a href="#">Latest</a>
+                                    <li><a href="{{url('/about')}}">about</a></li>
+                                    <li class="hot"><a href="{{url('/shop')}}#">Latest</a>
                                         <ul class="submenu">
-                                            <li><a href="shop.html"> Product list</a></li>
-                                            <li><a href="product_details.html"> Product Details</a></li>
+                                            <li><a href="{{url('/shop')}}"> Product list</a></li>
+                                            <li><a href="{{url('/details')}}"> Product Details</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="{{url('/')}}">Blog</a>
+                                    <li><a href="{{url('/blog')}}">Blog</a>
                                         <ul class="submenu">
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                            <li><a href="{{url('/blog')}}">Blog</a></li>
+                                            <li><a href="{{url('/blog1')}}">Blog Details</a></li>
                                         </ul>
                                     </li>
+<<<<<<< HEAD
                                     <li><a href="{{url('/pages')}}">Pages</a>
+=======
+                                    <li><a href="{{url('/login')}}">Pages</a>
+>>>>>>> master
                                         <ul class="submenu">
-                                            <li><a href="login.html">Login</a></li>
-                                            <li><a href="cart.html">Cart</a></li>
-                                            <li><a href="elements.html">Element</a></li>
-                                            <li><a href="confirmation.html">Confirmation</a></li>
-                                            <li><a href="checkout.html">Product Checkout</a></li>
+                                            <li><a href="{{url('/login')}}">Login</a></li>
+                                            <li><a href="{{url('/cart')}}">Cart</a></li>
+                                            <li><a href="{{url('/elements')}}">Element</a></li>
+                                            <li><a href="{{url('/confirmations')}}">Confirmation</a></li>
+                                            <li><a href="{{url('/checkout')}}">Product Checkout</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="{{url('/')}}">Contact</a></li>
+                                    <li><a href="{{url('/contact')}}">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -203,22 +207,22 @@
 
     <!-- JS here -->
 
-    <script src="{{asset('js/vendor/modernizr-3.5.0.min.js') }}"></script>
+    <script src="{{asset('js/vendor/modernizr-3.5.0.min.js')}}"></script>
     <!-- Jquery, Popper, Bootstrap -->
-    <script src="{{asset('js/vendor/jquery-1.12.4.min.js') }}"></script>
-    <script src="{{asset('js/popper.min.js') }}"></script>
-    <script src="{{asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{asset('js/vendor/jquery-1.12.4.min.js')}}"></script>
+    <script src="{{asset('js/popper.min.js')}}"></script>
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
     <!-- Jquery Mobile Menu -->
-    <script src="{{asset('js/jquery.slicknav.min.js') }}"></script>
+    <script src="{{asset('js/jquery.slicknav.min.js')}}"></script>
 
     <!-- Jquery Slick , Owl-Carousel Plugins -->
-    <script src="{{asset('js/owl.carousel.min.js') }}"></script>
-    <script src="{{asset('js/slick.min.js') }}"></script>
+    <script src="{{asset('js/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('js/slick.min.js')}}"></script>
 
     <!-- One Page, Animated-HeadLin -->
-    <script src="{{asset('js/wow.min.js') }}"></script>
-    <script src="{{asset('js/animated.headline.js') }}"></script>
-    <script src="{{asset('js/jquery.magnific-popup.js') }}"></script>
+    <script src="{{asset('js/wow.min.js')}}"></script>
+    <script src="{{asset('js/animated.headline.js')}}"></script>
+    <script src="{{asset('js/jquery.magnific-popup.js')}}"></script>
 
     <!-- Scrollup, nice-select, sticky -->
     <script src="{{asset('js/jquery.scrollUp.min.js') }}"></script>

@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+<<<<<<< HEAD
 });
 Route::namespace ('App\Http\Controllers')->group(function () {
     Route::get('index', 'SiteController@index');
@@ -22,3 +23,22 @@ Route::namespace ('App\Http\Controllers')->group(function () {
     Route::get('pages', 'SiteController@pages');
 
 });
+=======
+
+});
+
+Route::namespace ('App\Http\Controllers')->group(function () {
+    Route::get('index', 'SiteController@index');
+    Route::get('shop', 'SiteController@shop');
+    Route::get('contact', 'SiteController@contact');
+    Route::get('details', 'SiteController@details');
+    Route::get('about', 'SiteController@about');
+    Route::get('blog', 'SiteController@blog');
+    Route::get('blog1', 'SiteController@blog_details');
+    Route::get('login', 'SiteController@login');
+    Route::get('cart', 'SiteController@cart');
+    Route::get('elements', 'SiteController@elements');
+    Route::get('confirmations', 'SiteController@confirmations');
+    Route::get('checkout', 'SiteController@checkout');
+});
+>>>>>>> master
