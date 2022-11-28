@@ -66,11 +66,7 @@
                                             <li><a href="{{url('/blog1')}}">Blog Details</a></li>
                                         </ul>
                                     </li>
-<<<<<<< HEAD
-                                    <li><a href="{{url('/pages')}}">Pages</a>
-=======
                                     <li><a href="{{url('/login')}}">Pages</a>
->>>>>>> master
                                         <ul class="submenu">
                                             <li><a href="{{url('/login')}}">Login</a></li>
                                             <li><a href="{{url('/cart')}}">Cart</a></li>

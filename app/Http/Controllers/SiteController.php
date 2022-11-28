@@ -4,34 +4,20 @@ namespace App\Http\Controllers;
 
 class SiteController extends Controller
 {
-<<<<<<< HEAD
-=======
 
     public function about()
     {
         return view('about');
     }
 
->>>>>>> master
     public function index()
     {
         return view('index');
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> master
     public function shop()
     {
         return view('shop');
     }
-<<<<<<< HEAD
-    public function pages()
-    {
-        return view('pages');
-    }
-
-=======
 
     public function blog()
     {
@@ -54,21 +40,20 @@ class SiteController extends Controller
     {
         return view('login');
     }
-     public function cart()
+    public function cart()
     {
         return view('cart');
     }
-     public function elements()
+    public function elements()
     {
         return view('elements');
     }
-      public function confirmations()
+    public function confirmations()
     {
         return view('confirmations');
     }
-          public function checkout()
+    public function checkout()
     {
         return view('checkout');
     }
->>>>>>> master
 }
